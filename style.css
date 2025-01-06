@@ -1,0 +1,114 @@
+*{
+ margin: 0; 
+ padding: 0; 
+ list-style: none; 
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 2%;
+}
+
+
+
+header h1{
+    font-size: 50px;
+}
+
+ul{display: flex;}
+ul li{padding: 0px 10px;}
+ul li a{color: #000;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.hero{height: 90vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: url('./download\ \(2\).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.hero h1{font-size: 80px;color: #fff;}
+.hero p{color: #fff;font-size:24px;}
+
+
+.hero button{background-color: orangered;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.About h2{font-size: 60px;text-align: center;font-style: italic;text-decoration: overline underline;padding-bottom: 20px;}
+.About p{font-size: 14px;font-family: Verdana, Geneva, Tahoma, sans-serif;text-align: center;line-height: 1.7em;}
+
+.About{padding: 5% 10%;}
+
+
+
+.cards{display: flex;justify-content: center;}
+
+
+
+
+
+
+
+
+@media (max-width:576px){
+    header{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .hero h1{
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 30px;
+
+    }
+    .hero p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero{
+        background-size: contain;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .hero button{
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
+
+}
+.About h2{font-size: 60px ;text-align: center;font-style: italict;text-decoration: overline;}
+.About p{font-size: 14px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;line-height: 1.7em;}
+.cards{display: flex;align-items: center;justify-content: center;transition: all.5s ease-in-out;}
+.box :hover{background-color: #0ce960;}
+.box{border: 2px;color: #000 solid;padding: 15px; ;}
+.box:nth-of-type(2){margin:0 10px;}
+.box h3{font-size: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: blue;text-align: center;
+}
+.box p{font-size: 12px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #fff;}
+.container {display: flex;align-items: center;;}
+.text{margin-right: 10px;padding-bottom: 10%;}
+.image{max-width: 40%;height: auto;}
+.lee{display: flex;align-items: center;justify-content: center;padding: 100px 50px;}
+.lee.image{width: 50%;}
+.image img{width: 100%;}
+.lee h2{font-size: 100px;color: salmon;}
+.lee p{font-size: 50px;color: seagreen;}
+    
+    
